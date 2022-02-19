@@ -2,15 +2,15 @@
 class Usuario:
     nombre = "Fernando"
 
-#Se crea un objeto de tipo usuario y se le cambia el nombre
+    #Se crea un método llamado saludar que recibe por parámetro a self, esto va a permitir que se pueda recibir
+    #información de un objeto, por ejemplo, al método le está llegando una propiedad del objeto donde se está mandando a llamar
+    #fernando.saludar()
+    def saludar(self):
+        print("Hola, mi nombre es " + self.nombre);
+
+
+# Se crea un objeto de tipo usuario y se le cambia el nombre
 fernando = Usuario()
 fernando.nombre = "José"
 
-
-#Se crea un objeto de tipo usuario y se le asigna un nombre
-liliana = Usuario()
-liliana.nombre = "Sofia"
-
-#De ambos objetos se imprimen los valores de la propiedad nombre
-print(fernando.nombre)
-print(liliana.nombre)
+fernando.saludar()
