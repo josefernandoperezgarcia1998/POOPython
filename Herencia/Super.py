@@ -1,6 +1,8 @@
 """
 Super:
 Conservar la funcionalidad existente de un método Padre y solo extenderlo en la clase hijo
+
+A partir de super, se puede acceder a los métodos de la clase Padre aún cuando se hayan sobre escrito en la clase hijo
 """
 
 class Usuario:  # Clase Padre
