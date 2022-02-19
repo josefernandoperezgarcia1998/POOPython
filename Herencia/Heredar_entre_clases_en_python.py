@@ -1,3 +1,7 @@
+"""
+Herencia entre clases en python
+"""
+
 class Usuario:  # Clase Padre
     def __init__(self, nombre):
         self.nombre = nombre
@@ -25,3 +29,4 @@ empleado.modificar_salario(1000)    #Agregando un monto al salario del método d
 empleado.ver_salario()  #Imprimiendo el salario del método de la clase hijo
 
 empleado.saludar(" ")  #Agregando mensaje de saludo (Empleado está heredando de Usuario)
+
